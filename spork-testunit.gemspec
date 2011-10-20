@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "bin/testdrb",
-     "lib/spork/test_framework/test_unit.rb"
+     "lib/spork/test_framework/test_unit.rb",
+     "lib/spork/test_framework/mini_spec.rb"
   ]
   s.homepage = %q{http://github.com/timcharper/spork-testunit}
   s.rdoc_options = ["--charset=UTF-8"]
