@@ -1,3 +1,4 @@
+require File.join(File.dirname(__FILE__), "test_unit")
 class Spork::TestFramework::MiniSpec < Spork::TestFramework::TestUnit
   HELPER_FILE = File.join(Dir.pwd, "spec/spec_helper.rb")
   SPEC_PATH = File.join(Dir.pwd, "spec")
